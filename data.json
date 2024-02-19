@@ -1,0 +1,72 @@
+[
+    {
+      "category": "home",
+      "products": [
+        {
+          "product_name": "Efficascent Oil",
+          "img": "haplas.webp",
+          "product_price": "50 isa, duha 100",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Tribal Meracle Oil",
+          "img": "haplas2.webp",
+          "product_price": "50 isa, duha 100",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Himag",
+          "img": "haplas3.png",
+          "product_price": "50 isa, duha 100",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "White Flower",
+          "img": "haplas7.jpg",
+          "product_price": "50 isa, duha 100",
+          "product_dateAdded": "Date Added Placeholder"
+        }
+      ]
+    },
+    {
+      "category": "products",
+      "products": [
+        {
+          "product_name": "White Flower",
+          "img": "haplas7.jpg",
+          "product_price": "2,600",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Haplas",
+          "img": "haplas5.jpg",
+          "product_price": "1,400",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Peace Body",
+          "img": "haplas6.webp",
+          "product_price": "2,500",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Efficascent Oil",
+          "img": "haplas.webp",
+          "product_price": "50 isa, duha 100",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Tribal Meracle Oil",
+          "img": "haplas2.webp",
+          "product_price": "50 isa, duha 100",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Himag",
+          "img": "haplas3.png",
+          "product_price": "50 isa, duha 100",
+          "product_dateAdded": "Date Added Placeholder"
+        }
+      ]
+    }
+  ]
