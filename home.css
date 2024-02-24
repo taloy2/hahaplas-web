@@ -122,12 +122,28 @@ main {
 }
 
 footer {
-    color: black;
-    text-align: center;
-    background-color: transparent;
-    padding: 10px;
-}
-
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 20px 0; /* Padding top and bottom */
+  }
+  
+  .social-icons a {
+    color: white; /* Icon color */
+    display: inline-block; /* Make the anchor tags behave as blocks */
+    margin-right: 10px; /* Spacing between icons */
+    vertical-align: middle; /* Align elements vertically */
+  }
+  
+  .social-icons img {
+    width: 30px; /* Adjust the width of the images */
+    vertical-align: middle; /* Align images vertically */
+  }
+  
+  .social-icons i {
+    font-size: 24px; /* Icon size */
+    margin-left: 5px; /* Spacing between image and icon */
+  }
+  
 .pic3 {
     width: 800px;
     height: auto;
