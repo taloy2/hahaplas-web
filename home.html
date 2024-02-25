@@ -18,25 +18,46 @@
     <header>
         <div class="container">
             <nav class="navbar">
-                <center>
-                    <ul>
-                        <li style="font-size: 25px;"><a href="#" onclick="navigateTo('home')">Home</a></li>
-                        <li style="font-size: 25px;"><a href="#" onclick="navigateTo('products')">Products</a></li>
-                        <li style="font-size: 25px;"><a href="#" onclick="navigateTo('about us')">About Us</a></li>
-                    </ul>
-                </center>
+                <ul>
+                    <li>
+                        <input type="text" placeholder="Search..." id="searchBar">
+                    </li>
+                    <li>
+                        <a href="#" onclick="navigateTo('home')">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="navigateTo('products')">Products</a>
+                        
+                    </li>
+                    <li>
+                        <a href="#" onclick="navigateTo('about us')">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="navigateTo('cart')">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                </ul>
             </nav>
+            
+            
         </div>
     </header>
 
     <main id="homeProductList" class="container">
-        <center>
-            <img src="display.jpg" alt="">\
-        </center>
-        <br><br>
-        <img src="1.gif" alt="png" width="200" height="200">
-        <div class="row"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Welcome to our website</h2>
+                <p style="font-size: 16px; line-height: 1.6;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum,
+                odio nec porta aliquam, est arcu ultricies lorem, a tempor velit tortor vitae lectus. 
+                Sed nec ligula ligula. Praesent volutpat viverra sapien, non varius leo. Nunc rutrum,
+                 enim non fermentum dapibus, mauris mi posuere nibh, vel pellentesque risus ex et nisi.</p>
+                <button class="btn btn-primary" onclick="navigateTo('about us')">About Us</button>
+                <button class="btn btn-primary" onclick="navigateTo('products')">Products</button>
+            </div>
+        </div>
     </main>
+    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
 </body>
@@ -47,8 +68,5 @@
       <a href="https://www.instagram.com"><img src="instagram (3).png" alt="d"><i class="fab fa-instagram"></i></a>
       <a href="https://twitter.com"><img src="twitter (1).png" alt="t"><i class="fab fa-twitter"></i></a>
     </div>
-  </footer>
-  
-  
-
-</html> 
+</footer>
+</html>

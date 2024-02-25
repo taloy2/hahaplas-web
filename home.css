@@ -1,10 +1,4 @@
-body {
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    color: #333;
-
+.body1{
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
@@ -38,57 +32,43 @@ header p {
     font-size: 18px;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar {
+    background-color: #333; /* Navbar background color */
+    color: white; /* Navbar text color */
+    padding: 10px; /* Navbar padding */
 }
 
-nav li {
-    display: inline;
-    margin-right: 15px;
+.navbar ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s;
+.navbar li {
+    margin-right: 20px; /* Spacing between navbar items */
 }
 
-nav a:hover {
-    color: seagreen;
+.navbar input[type="text"] {
+    padding: 8px; /* Padding inside the search bar */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ddd; /* Border color */
+    margin-right: auto; /* Push the search bar to the left */
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+.navbar a {
+    color: white; /* Navbar link color */
+    text-decoration: none; /* Remove underline */
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+.navbar a:hover {
+    color: #ccc; /* Navbar link color on hover */
 }
 
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.navbar i {
+    font-size: 20px; /* Cart icon size */
 }
-
-.dropdown-content a:hover {
-    background-color: white;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 
 .pic {
     height: 500px;
@@ -158,4 +138,18 @@ footer {
   }
   img{
     border-radius: 10px;
+}
+/* CSS for hover effect */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow effect */
+    transform: translateY(-5px); /* Example translation effect */
+}
+
+/* Additional styling for product card */
+.card {
+    transition: box-shadow 0.3s, transform 0.3s; /* Add transition effect */
+}
+.img-fluid{
+    width: 200px;
+    height: 200px;
 }
